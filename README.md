@@ -1,2 +1,2 @@
 # ujratervezes
-Practising for ujratervezes online course
+Practicing for ujratervezes online course
