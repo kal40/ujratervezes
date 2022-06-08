@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "surname": "Lonich",
+      "firstname": "karcsicsk",
+      "email": "bla@bla.bla",
+      "age": 35
+    },
+    {
+      "id": 2,
+      "surname": "Kosaras",
+      "firstname": "Ernő",
+      "email": "klio@bla.bla",
+      "age": 34
+    },
+    {
+      "id": 3,
+      "surname": "Kisági",
+      "firstname": "Marika",
+      "email": "agveagver@bla.bla",
+      "age": 44
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "bla",
+      "userid": 35
+    },
+    {
+      "id": 2,
+      "body": "blabla",
+      "userid": 135
+    }
+  ]
+}

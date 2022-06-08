@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Akciók</title>
+    <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <title>Felhasználók</title>
   </head>
   <body>
     <header>
@@ -23,7 +31,34 @@
         </li>
       </ul>
     </header>
-    <h1>Akciók</h1>
-    <h2>Hétfő</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <button id="getDataBtn" class="btn btn-block btn-primary mb-3">
+            Get Users
+          </button>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <table id="userTable" class="table table-stripped">
+            <thead>
+              <td>#</td>
+              <td>Surname</td>
+              <td>Firstname</td>
+              <td>Email</td>
+              <td>Age</td>
+              <td>Actions</td>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+    <script src="script/main.js"></script>
   </body>
 </html>
